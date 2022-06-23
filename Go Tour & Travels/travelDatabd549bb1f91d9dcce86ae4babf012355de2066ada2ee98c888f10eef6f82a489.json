@@ -1,0 +1,44 @@
+{
+    "customerName":"Sailesh Patra",
+    "phone": 9853154333,
+    "email": "sailesh.patra@publicissapient.com",
+    "address": "Cuttack, Odisha",
+    "aadharNo": "4553-8009-4602", //Digits are separated by -
+    "packagesWeProvide": [],
+    "trips": [
+       {
+           "registrationId": 45531,
+           "destination": {
+               "destinationName":"Ooty",
+               "daysOfTravel": 2,
+               "placesToVisit": ["Buttermilk Falls", "Ooty Lake", "Avalanche Lake", "Emerald Lake", "Botanical Garden"],
+               "price": 18000
+           },
+           "accomodation": {
+               "checkIn": "2022-01-01T18:30:00.000Z", // Dates are stored in ISOFormat
+               "checkOut": "2022-01-03T18:30:00.000Z", // new Date(year, month, date).toISOString()
+               "roomType": "Deluxe",
+               "noOfRooms": 2,
+               "noOfAdults": 4,
+               "noOfChildren": 0
+           }
+       },
+       {
+           "registrationId": 45532,
+           "destination": {
+               "destinationName":"Chikmaglur",
+               "daysOfTravel": 3,
+               "placesToVisit": ["Mulyangiri", "Hebbe Falls", "Z Point", "Baba Budangiri", "Hirekolale Lake"],
+               "price": 21000
+           },
+           "accomodation": {
+               "checkIn": "2022-01-14T18:30:00.000Z",
+               "checkOut": "2022-01-17T18:30:00.000Z",
+               "roomType": "VIP",
+               "noOfRooms": 2,
+               "noOfAdults": 4,
+               "noOfChildren": 0
+           }
+       }
+    ]   
+   }
